@@ -131,9 +131,9 @@ class simpleGraphConvolutionalignment(nn.Module):
             # output=self.norm(output)+output#get GCN output
             # print(outs.size())
             # print(output.size())
-            # outs,output,att=self.mutual(outs,output,textmask,textmask)#biaffine operation
+            outs,output,att=self.mutual(outs,output,textmask,textmask)#biaffine operation
             # attss.append(att)
-        return outs+output,attss#b,s,h
+        return outs,attss#b,s,h
 def length2mask(length,maxlength):
     size=list(length.size())
     length=length.unsqueeze(-1).repeat(*([1]*len(size)+[maxlength])).long()
