@@ -4,7 +4,7 @@ pip install pytorch
 
 some code is from https://github.com/GeneZC/ASGCN, and thanks them
 
-pip install transformers
+pip install transformers to install bert env
 
 pip install spacy 
 
@@ -32,7 +32,7 @@ run data_utils.py to generate pkl form of all five datasets
 
 change some parameters in train.py including path, dataset name and so on
 
-run train.py to train and evaluate, the first time you run this code it will download BERT-related files from outer website, please wait for it to complete the downloading.
+run train.py to train and evaluate, the first time you run this code it will download BERT-related model files from outer website, please wait for it to complete the downloading.
 
 4，自选模块与微调
 
