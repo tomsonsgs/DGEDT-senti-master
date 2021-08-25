@@ -24,7 +24,7 @@ copy datasets from https://github.com/GeneZC/ASGCN
 
 use the path and change the corresponding parameter in following files
 
-run generateGraph_spacy.py or generateGraph_stanford.py to generate adjacent file for all five datasets
+run generateGraph_spacy.py or generateGraph_stanford.py to generate adjacent matrix file for all five datasets
 
 run data_utils.py to generate pkl form of all five datasets
 
