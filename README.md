@@ -1,5 +1,7 @@
 1，安装
 
+pip install pytorch
+
 some code is from https://github.com/GeneZC/ASGCN, and thanks them
 
 pip install transformers
