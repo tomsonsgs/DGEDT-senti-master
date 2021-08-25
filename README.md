@@ -22,7 +22,7 @@ use nlp = StanfordCoreNLP(r'./stanford-corenlp-full-2018-02-27') to check
 
 copy datasets from https://github.com/GeneZC/ASGCN 
 
-use the path and change the corresponding parameter in following files
+use the dataset path and change the corresponding parameter in following files
 
 run generateGraph_spacy.py or generateGraph_stanford.py to generate adjacent matrix file for all five datasets
 
