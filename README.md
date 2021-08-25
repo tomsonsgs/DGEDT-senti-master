@@ -1,4 +1,4 @@
-1,安装
+1，安装
 
 some code is from https://github.com/GeneZC/ASGCN, and thanks them
 
@@ -16,7 +16,7 @@ and install stanford-corenlp-full-2018-02-27 for stanfordcorenlp
 
 use nlp = StanfordCoreNLP(r'./stanford-corenlp-full-2018-02-27') to check
 
-2,下载数据集并生成依赖文件
+2，下载数据集并生成依赖文件
 
 copy datasets from https://github.com/GeneZC/ASGCN 
 
@@ -28,6 +28,6 @@ run data_utils.py to generate pkl form of all five datasets
 
 run train.py to train and evaluate, the first time you run this code it will download BERT-related files from outer website, please wait for it to complete the downloading.
 
-4, 自选模块与微调
+4，自选模块与微调
 
 默认为双Transformer模型（Transformer+GCN），部分注释的内容为可选模块，包含掩码自注意力，双向GCN等，以及其他可调超参
