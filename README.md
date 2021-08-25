@@ -10,7 +10,7 @@ pip install spacy
 
 install resources for spacy
 
-run nlp = spacy.load('en_core_web_sm') to check
+use nlp = spacy.load('en_core_web_sm') to check
 
 or you can pip install stanfordcorenlp
 
