@@ -28,7 +28,7 @@ run data_utils.py to generate pkl form of all five datasets
 
 3，训练与测试
 
-change some parameter in following files including path, dataset name and so on
+change some parameters in following files including path, dataset name and so on
 
 run train.py to train and evaluate, the first time you run this code it will download BERT-related files from outer website, please wait for it to complete the downloading.
 
