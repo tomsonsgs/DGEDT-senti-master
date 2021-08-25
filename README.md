@@ -36,4 +36,4 @@ run train.py to train and evaluate, the first time you run this code it will dow
 
 4，自选模块与微调
 
-默认为双Transformer模型（Transformer+GCN），部分注释的内容为可选模块，包含掩码自注意力，双向GCN等，以及其他可调超参
+默认为双Transformer模型（Transformer+GCN），部分注释的内容为可选模块，包含掩码自注意力，双向GCN等，以及其他可调超参, most changes about model are in asgcn.py
