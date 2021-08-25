@@ -14,7 +14,7 @@ run nlp = spacy.load('en_core_web_sm') to check
 
 or you can pip install stanfordcorenlp
 
-and install stanford-corenlp-full-2018-02-27 for stanfordcorenlp
+and install stanford-corenlp-full-2018-02-27 (not neccessary for exactly the same) for stanfordcorenlp
 
 use nlp = StanfordCoreNLP(r'./stanford-corenlp-full-2018-02-27') to check
 
