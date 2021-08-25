@@ -20,11 +20,15 @@ use nlp = StanfordCoreNLP(r'./stanford-corenlp-full-2018-02-27') to check
 
 copy datasets from https://github.com/GeneZC/ASGCN 
 
+use the path and change the corresponding parameter in following files
+
 run generateGraph_spacy.py or generateGraph_stanford.py to generate adjacent file for all five datasets
 
 run data_utils.py to generate pkl form of all five datasets
 
 3，训练与测试
+
+change some parameter in following files including path, dataset name and so on
 
 run train.py to train and evaluate, the first time you run this code it will download BERT-related files from outer website, please wait for it to complete the downloading.
 
