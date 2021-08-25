@@ -40,4 +40,4 @@ run train.py to train and evaluate, the first time you run this code it will dow
 
 5, when not use BERT
 
-when you not use BERT, use files in data/datas to train with the current dataset and task as a supplement dataset with aspect span set to [0, length], which means taking the whole sentence as a aspact
+when you not use BERT, use files in data/datas to train with the current dataset and task as a supplement dataset with aspect span set to [0, length], which means taking the whole sentence as a aspect
